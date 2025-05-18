@@ -10,15 +10,11 @@ const ClimateHeatmap = dynamic(() => import("../Heatmap/Heatmap"), {
 const availableVariables = [
   { label: "2m Temperature", value: "t2m" },
   { label: "Total Precipitation", value: "tp" },
-  // { label: "10m Wind U Component", value: "u10" },
-  // { label: "10m Wind V Component", value: "v10" },
 ];
 
 const variableToFilePath = {
-  t2m: "output/era5_2m_temperature_2020.nc",
+  t2m: "output/era5_2m_temperature_2023.netcdf",
   tp: "output/era5_total_precipitation_2020.grib",
-  u10: "output/era5_10m_u_component_of_wind_2020.grib",
-  v10: "output/era5_10m_v_component_of_wind_2020.grib",
 };
 
 export const Dashboard = () => {

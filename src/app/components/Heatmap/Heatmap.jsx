@@ -35,7 +35,7 @@ export const HeatmapLayer = ({ filePath, time, variable }) => {
 
         await import("leaflet.heat");
 
-        const res = await api.get("/grid", {
+        const res = await api.get("/map", {
           params: { file_path: filePath, time, variable },
         });
 
