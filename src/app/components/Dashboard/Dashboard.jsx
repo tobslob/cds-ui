@@ -13,7 +13,7 @@ const availableVariables = [
 ];
 
 const variableToFilePath = {
-  t2m: "output/era5_2m_temperature_2023.netcdf",
+  t2m: "output/era5_2m_temperature_2022.grib",
   tp: "output/era5_total_precipitation_2020.grib",
 };
 
